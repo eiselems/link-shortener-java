@@ -1,0 +1,1 @@
+INSERT INTO Link VALUES (1337, '1337-1337', 'http://www.example.com');

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>shrtl - shortening your links like a pro!</title>
+		
+		<link href="/css/main.css" rel="stylesheet" type="text/css">
+	</head>
+
+	<header>
+		<h1>lnkshrt</h1>
+	</header>
+
+	<body>
+	
+		<div class="container">
+			<div>
+				
+				<form class="form-style-7">
+					<ul>
+						<li>
+						    <label for="linkInput">Link</label>
+						    <input id ="linkInput" placeholder="eg. http(s)://google.com" type="url" name="link" maxlength="100" pattern="https?://.+">
+						    <span>Enter your link here</span>
+						</li>
+						<li>
+    						<input id='getLinkInput' type="submit" value="Generate Link" >
+						</li>
+					</ul>
+				</form>
+				<p id="output"></p>
+				
+			</div>
+			
+			
+		</div>
+		
+		<script type="text/javascript" src="js/ajax-functions.js"></script>
+		<script type="text/javascript" src="js/picoModal.js"></script>
+		<script type="text/javascript" src="js/linkController.client.js"></script>
+	</body>
+
+</html>
